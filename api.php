@@ -9,7 +9,7 @@ if (empty($_GET['zip_code'])) {
         'success' => false,
         'results' => [],
         'message' => [
-            'パラメータ:postal_code が指定されていません。'
+            'パラメータ:zip_code が指定されていません。'
         ]
     ];
     echo json_encode($results);
